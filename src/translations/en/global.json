@@ -1,0 +1,65 @@
+{
+    "nav": {
+        "about": "About me",
+        "portfolio": "Portfolio",
+        "education": "Education",
+        "contact": "Contact"
+    },
+    "hero": {
+        "description": "",
+        "learn-more": "Learn more"
+    },
+    "about-me": {
+        "title": "About me",
+        "description-a": "Hello! I'm Evan Adams. I am always learning and growing in anything related to computers. I have more than",
+        "description-b": "years of experience in building software and web applications,",
+        "description-c": "and a B.S. Computer Science from the University of Southern Indiana.",
+        "description-d": "",
+        "cv": "Download CV"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "descriptions": {
+            "Tarkov Informer": "A fully loaded Discord Bot written in Python. Tarkov Informer is full of useful commands for any Tarkov server. Detailed item statistics, ammo charts, trader timer, Tarkov time, randomizers, and more!",
+            "SOC Dashboard": "A dashboard interface to expose the Microsoft Graph API in a user friendly way. Utilizes websocket technology to send server-side data dynamically.",
+            "Digital Signature Verification System for the University of Southern Indiana": "A digital signature verification system to verify the signature of pdfs for faculty at the University of Southern Indiana.",
+            "Dynamic Template for Flask": "This is a friendly template utilizing the library Turbo-Flask to create applications that look and feel like single-page apps without using JavaScript.",
+            "Stash": "Stash is a Discord bot that helps you play Escape from Tarkov! This bot takes all the data from Tarkov.dev and exposes it in a user-friendly way. This bot is open source and supported by the team behind Tarkov.dev.",
+            "Tarkov Tools Discord Bot": "This is the official tarkov-tools discord bot.",
+            "The Algorithms/Python": "All algorithms implemented in Python - for education."
+        },
+        "madeWith": "Made with",
+        "github-repos-link": "See more projects",
+        "buttons": {
+            "code": "Code",
+            "live": "Live"
+        }
+    },
+    "education": {
+        "title": "Education",
+        "description-a": "My knowledge in computer science comes from my work, university, and previous projects with friends.",
+        "description-b": "I have also gained knowledge from various platforms such as Udemy and Leetcode.",
+        "subtitle": "Here are some of my certificates:",
+        "certificates": {
+            "python": "Python Certificate",
+            "sql": "SQL Bootcamp"
+        }
+    },
+    "contact": {
+        "title": "Contact me",
+        "form": {
+            "name": "Name",
+            "name-placeholder": "Your name or company name",
+            "email": "Email",
+            "email-placeholder": "Your email or company email",
+            "message": "Message",
+            "message-placeholder": "Your message",
+            "send": "Send"
+        },
+        "alerts": {
+            "warning": "Please enter all data",
+            "error": "An error has occurred, please enter the data correctly and try again",
+            "success": "Message sent!"
+        }
+    }
+}

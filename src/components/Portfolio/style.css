@@ -1,0 +1,263 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 58px 0;
+    background: var(--dark-blue);
+}
+
+.projects-container {
+    display: grid;
+    gap: 20px 40px;
+    grid-template-columns: repeat(2, 450px);
+    /* grid-template-rows: repeat(2, 209px); */
+    padding: 45px 0;
+}
+
+.project {
+    border-radius: 7px;
+    transition: .3s;
+    border: 2px solid var(--amber);
+    box-shadow: 0px 0px 1px 0px var(--amber);
+    will-change: transform;
+    position: relative;
+    overflow: hidden;
+    background: var(--white);
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 2px 1px #a97f01;
+}
+
+.project:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-image {
+    width: 450px;
+    height: 260px;
+    vertical-align: top;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background: #000000d1;
+    opacity: 0;
+    transition: .2s;
+}
+
+.overlay-child {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.project-text {
+    color: #fff;
+    text-align: center;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+.project-title {
+    margin: 16px 0 10px 0px;
+}
+
+/* technologies */
+.technologies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 2px 0;
+    /* border-top: 1px solid var(--amber); */
+}
+
+.technologie {
+    margin: 0 10px;
+}
+
+#github-projects-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-projects-link a {
+    color: var(--white);
+    font-size: 20px;
+    font-family: var(--sans-pro);
+    font-weight: bold;
+}
+
+#github-projects-link img {
+    width: 19px;
+    margin-left: 5px;
+}
+
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.project-buttons a {
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 1px 4px 1px transparent;
+    transition: 150ms;
+    font-weight: 600;
+}
+
+.project-buttons a:hover {
+    box-shadow: 0px 1px 4px 1px black;
+}
+
+.btn-live,
+.btn-play-store {
+    background: var(--amber);
+}
+
+.btn-code {
+    background: var(--white);
+}
+
+.project-buttons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+}
+
+.btn-play-store img {
+    width: 22px;
+    height: 22px;
+}
+
+
+/* ====== mobile desing ====== */
+.projects-container-mobile {
+    width: 100%;
+}
+
+.project-mobile {
+    margin-bottom: 40px;
+    padding: 10px 26px;
+    background-color: #3f5867;
+    margin: 30px 15px;
+    border-radius: 7px;
+}
+
+.project-mobile-title {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.project-image-mobile {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-mobile-description {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.tech-mobile-title {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.technologies-container-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+.technologies-mobile-row {
+    display: flex;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+/* ===== media queries ===== */
+
+@media screen and (max-width: 1200px) {
+    .project-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 380px)
+    }
+
+    .project-image {
+        width: 380px;
+        height: 190px;
+    }
+
+    .project-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .projects-container {
+        grid-template-columns: 480px;
+    }
+
+    .project-image {
+        width: 480px;
+        height: 250px;
+    }
+
+    .project-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projects-container {
+        grid-template-columns: 310px;
+        grid-template-rows: 200px;
+    }
+
+    .project-image {
+        width: 310px;
+        height: 190px;
+    }
+
+    .project-text {
+        font-size: 14px;
+    }
+}
