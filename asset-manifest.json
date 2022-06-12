@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c892ebd.chunk.css",
+    "main.js": "/static/js/main.d6626f65.chunk.js",
+    "main.js.map": "/static/js/main.d6626f65.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.e9df92be.chunk.js": "/static/js/2.e9df92be.chunk.js",
+    "static/js/2.e9df92be.chunk.js.map": "/static/js/2.e9df92be.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.788ba9f6ece619ac1e4d5ffe9f9e239c.js": "/precache-manifest.788ba9f6ece619ac1e4d5ffe9f9e239c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5c892ebd.chunk.css.map": "/static/css/main.5c892ebd.chunk.css.map",
+    "static/js/2.e9df92be.chunk.js.LICENSE.txt": "/static/js/2.e9df92be.chunk.js.LICENSE.txt",
+    "static/media/close.svg": "/static/media/close.45ffa6f3.svg",
+    "static/media/default_project.jpg": "/static/media/default_project.d1f9232b.jpg",
+    "static/media/digital_signature.png": "/static/media/digital_signature.94397ed9.png",
+    "static/media/download.svg": "/static/media/download.8b08f637.svg",
+    "static/media/external-link.svg": "/static/media/external-link.694d24e7.svg",
+    "static/media/git.svg": "/static/media/git.e17d9d39.svg",
+    "static/media/github.svg": "/static/media/github.058a5b6f.svg",
+    "static/media/globe-icon.svg": "/static/media/globe-icon.93b6c512.svg",
+    "static/media/html_and_css.svg": "/static/media/html_and_css.61d1a016.svg",
+    "static/media/instagram-white.png": "/static/media/instagram-white.623a8580.png",
+    "static/media/instagram.svg": "/static/media/instagram.f30c7918.svg",
+    "static/media/javascript.svg": "/static/media/javascript.dd60b11e.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.0f7f2430.svg",
+    "static/media/menu.svg": "/static/media/menu.8c18a2d7.svg",
+    "static/media/mylogo.svg": "/static/media/mylogo.4adb9443.svg",
+    "static/media/node.png": "/static/media/node.1c9077c5.png",
+    "static/media/python.svg": "/static/media/python.fbef321e.svg",
+    "static/media/soc_dashboard.png": "/static/media/soc_dashboard.79562ea9.png",
+    "static/media/tarkov_informer.png": "/static/media/tarkov_informer.5e3e87c5.png",
+    "static/media/twitter.svg": "/static/media/twitter.1daf9a0e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.e9df92be.chunk.js",
+    "static/css/main.5c892ebd.chunk.css",
+    "static/js/main.d6626f65.chunk.js"
+  ]
+}
