@@ -51,7 +51,7 @@ export const projects = [
     },
     {
         name: 'SOC Dashboard',
-        photo: projectsImgs['soc_dashboard'],
+        photo: projectsImgs['default_project'],
         technologies: [python, git, htmlAndCss],
     },
     {
@@ -63,7 +63,7 @@ export const projects = [
     },
     {
         name: 'Digital Signature Verification System for the University of Southern Indiana',
-        photo: projectsImgs['digital_signature'],
+        photo: projectsImgs['default_project'],
         technologies: [node, react, python, git],
     },
     {
