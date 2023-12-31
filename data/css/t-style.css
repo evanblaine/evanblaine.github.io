@@ -17,3 +17,38 @@
     color: #EFD700;
 }
 
+/* t-style.css */
+
+/* Style for inline code */
+md-block code {
+    /* background-color: #f8f9fa !important; */
+    /* color: #007bff; */
+    background-color: #343a40;
+    color: #EFB700;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+md-block h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #EFEF00;
+}
+
+/* Style for code blocks */
+md-block pre {
+    background-color: #343a40;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+/* Style for code block text */
+md-block pre code {
+    color: #ffffff;
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 14px;
+}
